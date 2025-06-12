@@ -45,7 +45,7 @@ export default function CodigoCotidianoLanding() {
     },
 
     {
-      nombre: "Romina Forclas",
+      nombre: "Maximiliano Joyce",
       rol: "Investigador",
       descripcion: "Responsable de la investigación y preparación de temas",
       avatar: "/placeholder.svg?height=100&width=100",
