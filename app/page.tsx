@@ -215,7 +215,7 @@ export default function CodigoCotidianoLanding() {
             <Code className="h-6 w-6 text-green-400" />
             <span className="text-white font-semibold">Código Cotidiano</span>
           </div>
-          <p className="text-slate-400 text-sm">Proyecto académico - Taller de Comunicación © 2024</p>
+          <p className="text-slate-400 text-sm">Proyecto académico - Taller de Comunicación © 2025</p>
           <p className="text-slate-500 text-xs mt-2">
             Inspirado en "while True: learn" - Explorando el mundo de la tecnología y la comunicación
           </p>
