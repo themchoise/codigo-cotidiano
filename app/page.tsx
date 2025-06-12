@@ -7,25 +7,45 @@ import Image from "next/image"
 export default function CodigoCotidianoLanding() {
   const integrantes = [
     {
-      nombre: "Ana García",
+      nombre: "Lola Rodriguez Farias",
       rol: "Host Principal",
       descripcion: "Estudiante de Comunicación especializada en medios digitales",
       avatar: "/placeholder.svg?height=100&width=100",
     },
     {
-      nombre: "Carlos Mendez",
+      nombre: "Ludmila Brizuela",
       rol: "Co-host Técnico",
       descripcion: "Apasionado por la tecnología y la programación",
       avatar: "/placeholder.svg?height=100&width=100",
     },
     {
-      nombre: "María López",
+      nombre: "Angel Coscarelli",
       rol: "Productora",
       descripcion: "Encargada de la edición y producción del contenido",
       avatar: "/placeholder.svg?height=100&width=100",
     },
     {
-      nombre: "Diego Ruiz",
+      nombre: "Teo Sordó",
+      rol: "Investigador",
+      descripcion: "Responsable de la investigación y preparación de temas",
+      avatar: "/placeholder.svg?height=100&width=100",
+    },
+    {
+      nombre: "Mercedes Marighetti",
+      rol: "Investigador",
+      descripcion: "Responsable de la investigación y preparación de temas",
+      avatar: "/placeholder.svg?height=100&width=100",
+    },
+
+    {
+      nombre: "Romina Forclas",
+      rol: "Investigador",
+      descripcion: "Responsable de la investigación y preparación de temas",
+      avatar: "/placeholder.svg?height=100&width=100",
+    },
+
+    {
+      nombre: "Romina Forclas",
       rol: "Investigador",
       descripcion: "Responsable de la investigación y preparación de temas",
       avatar: "/placeholder.svg?height=100&width=100",
@@ -158,9 +178,7 @@ export default function CodigoCotidianoLanding() {
           <div className="max-w-4xl mx-auto">
             <Card className="bg-gradient-to-r from-slate-800/50 to-slate-700/50 border-slate-600">
               <CardHeader className="text-center">
-                <div className="w-20 h-20 mx-auto mb-4 bg-green-400/20 rounded-full flex items-center justify-center">
-                  <Play className="w-10 h-10 text-green-400" />
-                </div>
+
                 <CardTitle className="text-white text-2xl mb-2">Episodio Piloto</CardTitle>
                 <CardDescription className="text-slate-300">
                   Nuestro primer episodio donde presentamos el proyecto y hablamos sobre los objetivos del podcast
@@ -168,22 +186,16 @@ export default function CodigoCotidianoLanding() {
               </CardHeader>
               <CardContent className="text-center space-y-6">
                 <div className="bg-slate-900/50 rounded-lg p-6 border border-slate-600">
-                  <p className="text-slate-400 mb-4">🎧 Próximamente disponible el enlace al audio</p>
-                  <div className="space-y-3">
-                    <Button className="w-full bg-green-600 hover:bg-green-700 text-white">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Escuchar en Spotify
-                    </Button>
-                    <Button variant="outline" className="w-full border-slate-600 text-slate-300 hover:bg-slate-800">
-                      <ExternalLink className="w-4 h-4 mr-2" />
-                      Escuchar en YouTube
-                    </Button>
-                  </div>
+                  <audio controls className="w-full mb-4">
+                    <source src="/sesion01.mp3" type="audio/mpeg" />
+                    Tu navegador no soporta el elemento de audio.
+                  </audio>
+
                 </div>
 
                 <div className="text-left space-y-2">
                   <h4 className="text-white font-semibold">En este episodio hablamos sobre:</h4>
-                  <ul className="text-slate-400 space-y-1 text-sm">
+                  <ul className=" space-y-1 text-sm font-bold">
                     <li>• Presentación del equipo</li>
                     <li>• Objetivos del podcast</li>
                     <li>• La importancia de la comunicación en tecnología</li>
